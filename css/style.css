@@ -78,9 +78,8 @@ input.empty {
 
 .card-body {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card-body a {
@@ -138,3 +137,21 @@ input.empty {
   float: right;
 }
 
+.card-link {
+  color:rgb(139, 133, 133);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-body2 {
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  height: 130px;
+  align-items: center;
+  width: auto;
+  margin-left: 10px;
+}
