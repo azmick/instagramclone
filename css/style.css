@@ -39,7 +39,15 @@ input.empty {
 
 .rightpanellinks {
   text-decoration: none;
-  color: lightgrey;
+  color: lightgray;
+}
+
+.rightpanel {
+  color: white;
+  border: none;
+  position: sticky;
+  top: 90px;  
+  right: 0;
 }
 
 .body {
@@ -107,3 +115,26 @@ input.empty {
 .yorumekle {
   margin-right: auto;
 }
+
+.card-body1  {
+  background-color: white;
+  
+}
+
+.card-body1 .nav-link {
+  margin-left: 15px;
+}
+
+.oneriler {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oneriler .postuserfont.mt-1{
+  float: right;
+}
+
+.postuserfont .takipet {
+  float: right;
+}
+
